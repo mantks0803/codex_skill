@@ -1,0 +1,49 @@
+{
+  "scope": "SYNTHETIC_LAB_ONLY",
+  "mode": "PROPOSAL_ONLY",
+  "assumption": "The three known labels are an explicit teaching rule, not a confirmed business policy.",
+  "source_sha256_before": "b56aa2025f91d9305776666295a2765e677637de39f74d0208d391eaf31cf97f",
+  "source_sha256_after": "b56aa2025f91d9305776666295a2765e677637de39f74d0208d391eaf31cf97f",
+  "source_unchanged": true,
+  "applied_changes": 0,
+  "proposed_changes": [
+    {
+      "data_row": 4,
+      "customer_id": "004",
+      "column": "status",
+      "before": " thành công ",
+      "proposed": "Thành công",
+      "reason": "Known demo label differs only in case/whitespace"
+    }
+  ],
+  "review_items": [
+    {
+      "data_row": 2,
+      "customer_id": "002",
+      "column": "amount",
+      "raw": "-",
+      "reason": "Missing amount or marker; no rule authorizes converting to zero"
+    },
+    {
+      "data_row": 3,
+      "customer_id": "003",
+      "column": "status",
+      "raw": "",
+      "reason": "Empty status"
+    },
+    {
+      "data_row": 3,
+      "customer_id": "003",
+      "column": "amount",
+      "raw": "",
+      "reason": "Missing amount or marker; no rule authorizes converting to zero"
+    },
+    {
+      "data_row": 5,
+      "customer_id": "005",
+      "column": "status",
+      "raw": "31",
+      "reason": "Unknown status; meaning not inferred"
+    }
+  ]
+}

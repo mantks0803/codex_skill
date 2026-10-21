@@ -1,0 +1,75 @@
+{
+  "scope": "SYNTHETIC_LAB_ONLY",
+  "source_sha256_before": "b56aa2025f91d9305776666295a2765e677637de39f74d0208d391eaf31cf97f",
+  "source_sha256_after": "b56aa2025f91d9305776666295a2765e677637de39f74d0208d391eaf31cf97f",
+  "source_unchanged": true,
+  "row_count": 6,
+  "column_count": 4,
+  "null_policy": "No typed null inferred from CSV; empty fields are empty strings.",
+  "columns": {
+    "customer_id": {
+      "empty_string_count": 0,
+      "whitespace_only_count": 0,
+      "dash_count": 0,
+      "literal_zero_count": 0,
+      "zero_with_currency_marker_count": 0,
+      "distinct_raw_count": 6,
+      "raw_value_counts": {
+        "001": 1,
+        "002": 1,
+        "003": 1,
+        "004": 1,
+        "005": 1,
+        "006": 1
+      }
+    },
+    "status": {
+      "empty_string_count": 1,
+      "whitespace_only_count": 0,
+      "dash_count": 0,
+      "literal_zero_count": 0,
+      "zero_with_currency_marker_count": 0,
+      "distinct_raw_count": 6,
+      "raw_value_counts": {
+        "Thành công": 1,
+        "Thất bại": 1,
+        "": 1,
+        " thành công ": 1,
+        "31": 1,
+        "Chờ kích hoạt": 1
+      }
+    },
+    "amount": {
+      "empty_string_count": 1,
+      "whitespace_only_count": 0,
+      "dash_count": 1,
+      "literal_zero_count": 1,
+      "zero_with_currency_marker_count": 1,
+      "distinct_raw_count": 6,
+      "raw_value_counts": {
+        "0đ": 1,
+        "-": 1,
+        "": 1,
+        "150000đ": 1,
+        " 250000đ ": 1,
+        "0": 1
+      }
+    },
+    "branch": {
+      "empty_string_count": 1,
+      "whitespace_only_count": 0,
+      "dash_count": 0,
+      "literal_zero_count": 0,
+      "zero_with_currency_marker_count": 0,
+      "distinct_raw_count": 6,
+      "raw_value_counts": {
+        "Ha Noi": 1,
+        "ha noi": 1,
+        "": 1,
+        "Da  Nang": 1,
+        "da nang": 1,
+        "HCM": 1
+      }
+    }
+  }
+}

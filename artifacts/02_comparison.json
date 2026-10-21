@@ -1,0 +1,140 @@
+{
+  "scope": "SYNTHETIC_LAB_ONLY",
+  "results": {
+    "first_number": {
+      "correct": 5,
+      "total": 10,
+      "details": [
+        {
+          "id": "N01",
+          "expected": "4899",
+          "prediction": "4899",
+          "correct": true
+        },
+        {
+          "id": "N02",
+          "expected": null,
+          "prediction": "3001",
+          "correct": false
+        },
+        {
+          "id": "N03",
+          "expected": "4030",
+          "prediction": "4030",
+          "correct": true
+        },
+        {
+          "id": "N04",
+          "expected": "2001",
+          "prediction": "9000",
+          "correct": false
+        },
+        {
+          "id": "N05",
+          "expected": null,
+          "prediction": null,
+          "correct": true
+        },
+        {
+          "id": "N06",
+          "expected": "0012",
+          "prediction": "0012",
+          "correct": true
+        },
+        {
+          "id": "N07",
+          "expected": null,
+          "prediction": "2080",
+          "correct": false
+        },
+        {
+          "id": "N08",
+          "expected": null,
+          "prediction": "7777",
+          "correct": false
+        },
+        {
+          "id": "N09",
+          "expected": "2222",
+          "prediction": "1111",
+          "correct": false
+        },
+        {
+          "id": "N10",
+          "expected": "9220",
+          "prediction": "9220",
+          "correct": true
+        }
+      ]
+    },
+    "explicit_policy": {
+      "correct": 10,
+      "total": 10,
+      "details": [
+        {
+          "id": "N01",
+          "expected": "4899",
+          "prediction": "4899",
+          "correct": true
+        },
+        {
+          "id": "N02",
+          "expected": null,
+          "prediction": null,
+          "correct": true
+        },
+        {
+          "id": "N03",
+          "expected": "4030",
+          "prediction": "4030",
+          "correct": true
+        },
+        {
+          "id": "N04",
+          "expected": "2001",
+          "prediction": "2001",
+          "correct": true
+        },
+        {
+          "id": "N05",
+          "expected": null,
+          "prediction": null,
+          "correct": true
+        },
+        {
+          "id": "N06",
+          "expected": "0012",
+          "prediction": "0012",
+          "correct": true
+        },
+        {
+          "id": "N07",
+          "expected": null,
+          "prediction": null,
+          "correct": true
+        },
+        {
+          "id": "N08",
+          "expected": null,
+          "prediction": null,
+          "correct": true
+        },
+        {
+          "id": "N09",
+          "expected": "2222",
+          "prediction": "2222",
+          "correct": true
+        },
+        {
+          "id": "N10",
+          "expected": "9220",
+          "prediction": "9220",
+          "correct": true
+        }
+      ]
+    }
+  },
+  "fixture_sha256": "ed610e18e5f54d4db93fbed0488193d81c9015acc745c4e517e090aeaa9bfa55",
+  "rule": "Exactly one explicit policy #digits occurrence; otherwise abstain (null). Keep IDs as text.",
+  "limitation": "10 teaching cases, not a held-out evaluation, business policy, or PrepBench score."
+}

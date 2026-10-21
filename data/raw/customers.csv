@@ -1,0 +1,7 @@
+customer_id,status,amount,branch
+001,Thành công,0đ,Ha Noi
+002,Thất bại,-,ha noi
+003,,,
+004, thành công ,150000đ,Da  Nang
+005,31, 250000đ ,da nang
+006,Chờ kích hoạt,0,HCM

@@ -1,0 +1,12 @@
+[
+  {"id": "N01", "note": "Called about policy #4899.", "expected": "4899"},
+  {"id": "N02", "note": "Added to account #3001.", "expected": null},
+  {"id": "N03", "note": "Policy #4030 change of address.", "expected": "4030"},
+  {"id": "N04", "note": "Invoice #9000; policy #2001.", "expected": "2001"},
+  {"id": "N05", "note": "Call. Wrong number.", "expected": null},
+  {"id": "N06", "note": "Policy #0012 needs a statement.", "expected": "0012"},
+  {"id": "N07", "note": "Asked about policy #2080 and policy #2081.", "expected": null},
+  {"id": "N08", "note": "policy #7777 was corrected to policy #8888.", "expected": null},
+  {"id": "N09", "note": "Phone ref #1111; POLICY #2222.", "expected": "2222"},
+  {"id": "N10", "note": "Policy #9220 complaint.", "expected": "9220"}
+]
